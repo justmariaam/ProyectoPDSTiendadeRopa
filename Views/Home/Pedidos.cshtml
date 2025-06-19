@@ -1,0 +1,192 @@
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    Layout = null;
+    bool pedidoEnviado = ViewBag.PedidoExitoso ?? false;
+    var usuarioId = HttpContextAccessor.HttpContext?.Session.GetInt32("UsuarioId");
+    var nombreUsuario = HttpContextAccessor.HttpContext?.Session.GetString("UsuarioNombre");
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidos - Gossip Girl</title>
+    <link rel="icon" type="image/png" href="/images/logoP.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            padding-bottom: 40px;
+        }
+
+        .top-bar {
+            background-color: #000;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .logo-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex: 1;
+        }
+
+        .logo-title img {
+            height: 50px;
+        }
+
+        .center-title {
+            flex: 2;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .center-title span {
+            color: #ffcc00;
+        }
+
+        .top-icons {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: flex-end;
+            flex: 1;
+        }
+
+        .top-icons i {
+            font-size: 1.7rem;
+        }
+
+        .search-box {
+            border-radius: 20px;
+            padding: 5px 15px;
+            width: 200px;
+        }
+
+        .nav-menu {
+            background-color: #cc0066;
+        }
+
+        .nav-menu a {
+            color: white;
+            padding: 12px 20px;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .mensaje-container {
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .icono {
+            font-size: 70px;
+            color: #cc0066;
+            margin-bottom: 20px;
+        }
+
+        .mensaje-container h2 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .mensaje-container p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .btn-regreso {
+            background-color: #cc0066;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ENCABEZADO -->
+<div class="top-bar">
+    <div class="logo-title">
+        <img src="/images/logo.png" alt="Logo Gossip Girl" />
+    </div>
+
+    <div class="center-title">
+        WELCOME TO <span>GOSSIPGIRL</span>
+    </div>
+
+    <div class="top-icons">
+        <a href="/Home/Index"><i class="fa fa-home text-white"></i></a>
+        <input type="text" class="search-box" placeholder="Buscador" />
+        <i class="fa fa-search text-white"></i>
+        <a href="/Carrito/VerCarrito"><i class="fa fa-shopping-cart text-white"></i></a>
+       
+
+        @if (usuarioId != null)
+            {
+                <div class="d-flex align-items-center gap-2">
+                    <span class="text-white fw-bold">Hola, @nombreUsuario</span>
+                    <a href="/Account/Logout" class="btn btn-sm btn-outline-light">Cerrar sesión</a>
+                </div>
+            }
+            else
+            {
+                <a href="/Account/Login" class="text-white text-decoration-none">
+                    <i class="fa fa-user-circle text-white"></i>
+                </a>
+            }
+
+    </div>
+</div>
+
+<!-- MENÚ -->
+<div class="nav-menu text-center">
+    <a href="/Home/Index">Inicio</a>
+    <a href="/Home/Catalogo">Catálogo</a>
+    <a href="/Home/Pedidos">Pedidos</a>
+    <a href="/Carrito/VerCarrito">Carrito de compras</a>
+    <a href="/Account/Login">Iniciar sesión / Registrarse</a>
+</div>
+
+<!-- CONTENIDO -->
+<div class="mensaje-container container">
+    @if (pedidoEnviado)
+    {
+        <div>
+            <div class="icono">
+                <i class="fa fa-check-circle"></i>
+            </div>
+            <h2>¡Tu pedido ha sido enviado con éxito!</h2>
+            <p>Gracias por comprar en Gossip Girl. Pronto recibirás tu pedido en casa 💖</p>
+        </div>
+    }
+    else
+    {
+        <div>
+            <div class="icono">
+                <i class="fa fa-box-open"></i>
+            </div>
+            <h2>No hay pedidos por el momento</h2>
+            <p>Cuando realices un pedido, aparecerá aquí.</p>
+        </div>
+    }
+
+    <a href="/Home/Catalogo" class="btn-regreso">Volver al catálogo</a>
+</div>
+
+</body>
+</html>

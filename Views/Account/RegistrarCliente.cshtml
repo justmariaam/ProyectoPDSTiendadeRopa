@@ -1,0 +1,196 @@
+@model ProyectoTiendadeRopa.Models.Usuario
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GOSSIP GIRL | Registro Cliente</title>
+    <link rel="icon" type="image/png" href="/images/logoP.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .container-register {
+            display: flex;
+            height: 100vh;
+        }
+
+        .left-img {
+            flex: 1;
+            background: url('/images/login-banner.png') no-repeat center center;
+            background-size: cover;
+        }
+
+        .right-form {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            padding: 40px 20px;
+        }
+
+        .form-box {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .logo-img {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .logo-img img {
+            height: 60px;
+        }
+
+        .register-title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .input-wrapper {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .input-wrapper input {
+            width: 100%;
+            padding: 12px 45px 12px 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 15px;
+            min-width: 230px;
+        }
+
+        .input-wrapper i {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: white;
+            background-color: #f5a623;
+            padding: 9px;
+            border-radius: 4px;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .checkbox-row {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .checkbox-row input {
+            transform: scale(1.3);
+        }
+
+        .checkbox-row label {
+            font-weight: normal;
+        }
+
+        .btn-orange {
+            background-color: #f5a623;
+            color: white;
+            font-weight: bold;
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+        }
+
+        .links-row {
+            font-size: 0.9rem;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .links-row a {
+            color: #004c99;
+            text-decoration: none;
+        }
+
+        @@media (max-width: 768px) {
+            .container-register {
+                flex-direction: column;
+            }
+
+            .left-img {
+                height: 200px;
+            }
+
+            .form-row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-register">
+    <div class="left-img"></div>
+
+    <div class="right-form">
+        <div class="form-box">
+            <div class="logo-img">
+                <img src="/images/logo1.png" alt="Gossip Girl Logo" />
+            </div>
+            <div class="register-title">CREAR UNA NUEVA CUENTA</div>
+
+            <form asp-action="RegistrarCliente" method="post">
+                <div class="form-row">
+                    <div class="input-wrapper w-100">
+                        <input asp-for="Nombre" class="form-control" placeholder="Nombre" required />
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="input-wrapper w-100">
+                        <input asp-for="Correo" class="form-control" placeholder="Correo electrónico" required />
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-wrapper w-100">
+                        <input asp-for="Contrasena" class="form-control" placeholder="Contraseña" type="password" required />
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+
+                <div class="checkbox-row">
+                    <input type="checkbox" required />
+                    <label>Acepto los <a href="#">Términos y condiciones</a></label>
+                </div>
+
+                <div class="links-row">
+                    ¿Ya tienes cuenta? <a href="/Account/LoginCliente">Inicia sesión</a>
+                </div>
+
+                <button type="submit" class="btn-orange mt-3">Crear cuenta</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
