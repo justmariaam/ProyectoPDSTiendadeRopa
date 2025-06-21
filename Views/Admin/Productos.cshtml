@@ -159,6 +159,8 @@
 
             <label class="form-label">Categoria</label>
             <input class="form-control" name="Categoria" placeholder="Mujer Hombre Bebes Niña" required />
+            <button onclick="showSection('categoria')">Agregar Categoría</button>
+
         </div>
         <div class="col-md-6">
             <label class="form-label">Precio</label>
@@ -179,6 +181,25 @@
 </form>
 
 </div>
+
+<!-- AGREGAR CATEGORÍA -->
+<div id="categoria" class="section @(seccion == "categoria" ? "active" : "")">
+    <h4 style="color: #cc0066; font-weight: bold;">AGREGAR CATEGORÍA</h4>
+    <form method="post" action="/Admin/AgregarCategoria">
+        <label class="form-label">Nombre de la categoría</label>
+        <input class="form-control w-50" name="Nombre" placeholder="Ej: Accesorios" required />
+
+        <div class="mt-3">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </div>
+    </form>
+
+    @if (TempData["MensajeCategoria"] != null)
+    {
+        <div class="alert alert-success mt-3">@TempData["MensajeCategoria"]</div>
+    }
+</div>
+
 
 <!-- BUSCAR -->
 <div id="buscar" class="section @(seccion == "buscar" ? "active" : "")">

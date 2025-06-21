@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KE3K0NChrAv2HiSjRzWd3Wh53ufZwrhuT4tpdF9r6BU=",
+  "Hash": "iN7aTB8L1ZmxDv0vJ6umx4MgWnWTEYzYXtcdLaWddQQ=",
   "Source": "ProyectoTiendadeRopa",
   "BasePath": "_content/ProyectoTiendadeRopa",
   "Mode": "Default",
@@ -122,6 +122,48 @@
       "OriginalItemSpec": "wwwroot\\images\\12aa520d-0ca4-4063-8354-43f6c0d5ec75.png"
     },
     {
+      "Identity": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\3bff2d2b-b59d-4535-97da-fb6a614397e8.png",
+      "SourceId": "ProyectoTiendadeRopa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\",
+      "BasePath": "_content/ProyectoTiendadeRopa",
+      "RelativePath": "images/3bff2d2b-b59d-4535-97da-fb6a614397e8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ljp9ovy862",
+      "Integrity": "kf3nvaKYf3oUwQ8wIZXiSQFdiBZ1NBS2Sk+MTmxexJo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3bff2d2b-b59d-4535-97da-fb6a614397e8.png"
+    },
+    {
+      "Identity": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\44433d90-351a-4c85-803c-22e105344556.png",
+      "SourceId": "ProyectoTiendadeRopa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\",
+      "BasePath": "_content/ProyectoTiendadeRopa",
+      "RelativePath": "images/44433d90-351a-4c85-803c-22e105344556#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xbkfts0ksn",
+      "Integrity": "rUHxUc4BOPwURA3yX42cNCJYqvjoONNtFjPxuSw2qA4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\44433d90-351a-4c85-803c-22e105344556.png"
+    },
+    {
       "Identity": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\4ef243eb-b31e-49c9-8d9a-acdb4d660417.png",
       "SourceId": "ProyectoTiendadeRopa",
       "SourceType": "Discovered",
@@ -183,6 +225,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\7863f3e1-eeb1-48b0-8a8a-c97882f5077b.png"
+    },
+    {
+      "Identity": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\81939bd8-1fdf-47fc-b229-ee9e031244d0.png",
+      "SourceId": "ProyectoTiendadeRopa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\",
+      "BasePath": "_content/ProyectoTiendadeRopa",
+      "RelativePath": "images/81939bd8-1fdf-47fc-b229-ee9e031244d0#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "incdfz4o00",
+      "Integrity": "TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\81939bd8-1fdf-47fc-b229-ee9e031244d0.png"
+    },
+    {
+      "Identity": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\970accc8-6b43-416c-8ad7-fdd53e2af0dc.png",
+      "SourceId": "ProyectoTiendadeRopa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\",
+      "BasePath": "_content/ProyectoTiendadeRopa",
+      "RelativePath": "images/970accc8-6b43-416c-8ad7-fdd53e2af0dc#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "incdfz4o00",
+      "Integrity": "TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\970accc8-6b43-416c-8ad7-fdd53e2af0dc.png"
     },
     {
       "Identity": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\bebes.jpg",
@@ -435,6 +519,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\CMH.png"
+    },
+    {
+      "Identity": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\d3e611f2-38e8-4627-be3f-540b4c64dcaf.png",
+      "SourceId": "ProyectoTiendadeRopa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\",
+      "BasePath": "_content/ProyectoTiendadeRopa",
+      "RelativePath": "images/d3e611f2-38e8-4627-be3f-540b4c64dcaf#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "incdfz4o00",
+      "Integrity": "TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d3e611f2-38e8-4627-be3f-540b4c64dcaf.png"
     },
     {
       "Identity": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\d9b5f4b8-9ff5-4839-ad1f-d5674af4b382.png",
@@ -2764,6 +2869,170 @@
       ]
     },
     {
+      "Route": "images/3bff2d2b-b59d-4535-97da-fb6a614397e8.ljp9ovy862.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\3bff2d2b-b59d-4535-97da-fb6a614397e8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38631"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kf3nvaKYf3oUwQ8wIZXiSQFdiBZ1NBS2Sk+MTmxexJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 01:36:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ljp9ovy862"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3bff2d2b-b59d-4535-97da-fb6a614397e8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kf3nvaKYf3oUwQ8wIZXiSQFdiBZ1NBS2Sk+MTmxexJo="
+        }
+      ]
+    },
+    {
+      "Route": "images/3bff2d2b-b59d-4535-97da-fb6a614397e8.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\3bff2d2b-b59d-4535-97da-fb6a614397e8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38631"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kf3nvaKYf3oUwQ8wIZXiSQFdiBZ1NBS2Sk+MTmxexJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 01:36:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kf3nvaKYf3oUwQ8wIZXiSQFdiBZ1NBS2Sk+MTmxexJo="
+        }
+      ]
+    },
+    {
+      "Route": "images/44433d90-351a-4c85-803c-22e105344556.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\44433d90-351a-4c85-803c-22e105344556.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78398"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rUHxUc4BOPwURA3yX42cNCJYqvjoONNtFjPxuSw2qA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:39:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rUHxUc4BOPwURA3yX42cNCJYqvjoONNtFjPxuSw2qA4="
+        }
+      ]
+    },
+    {
+      "Route": "images/44433d90-351a-4c85-803c-22e105344556.xbkfts0ksn.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\44433d90-351a-4c85-803c-22e105344556.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78398"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rUHxUc4BOPwURA3yX42cNCJYqvjoONNtFjPxuSw2qA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:39:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xbkfts0ksn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/44433d90-351a-4c85-803c-22e105344556.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rUHxUc4BOPwURA3yX42cNCJYqvjoONNtFjPxuSw2qA4="
+        }
+      ]
+    },
+    {
       "Route": "images/4ef243eb-b31e-49c9-8d9a-acdb4d660417.jmdb06stub.png",
       "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\4ef243eb-b31e-49c9-8d9a-acdb4d660417.png",
       "Selectors": [],
@@ -3006,6 +3275,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-RQ7L8AalpSiOWUOGeYiqD+M3q4VNnBmVoLPTq00Sz+M="
+        }
+      ]
+    },
+    {
+      "Route": "images/81939bd8-1fdf-47fc-b229-ee9e031244d0.incdfz4o00.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\81939bd8-1fdf-47fc-b229-ee9e031244d0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 03:28:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "incdfz4o00"
+        },
+        {
+          "Name": "label",
+          "Value": "images/81939bd8-1fdf-47fc-b229-ee9e031244d0.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc="
+        }
+      ]
+    },
+    {
+      "Route": "images/81939bd8-1fdf-47fc-b229-ee9e031244d0.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\81939bd8-1fdf-47fc-b229-ee9e031244d0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 03:28:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc="
+        }
+      ]
+    },
+    {
+      "Route": "images/970accc8-6b43-416c-8ad7-fdd53e2af0dc.incdfz4o00.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\970accc8-6b43-416c-8ad7-fdd53e2af0dc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 02:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "incdfz4o00"
+        },
+        {
+          "Name": "label",
+          "Value": "images/970accc8-6b43-416c-8ad7-fdd53e2af0dc.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc="
+        }
+      ]
+    },
+    {
+      "Route": "images/970accc8-6b43-416c-8ad7-fdd53e2af0dc.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\970accc8-6b43-416c-8ad7-fdd53e2af0dc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 02:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc="
         }
       ]
     },
@@ -3990,6 +4423,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-BfDgGBsmWfO6zzyMjl6Y9rypnjbl/CSMeVsX5CLMb2U="
+        }
+      ]
+    },
+    {
+      "Route": "images/d3e611f2-38e8-4627-be3f-540b4c64dcaf.incdfz4o00.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\d3e611f2-38e8-4627-be3f-540b4c64dcaf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 03:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "incdfz4o00"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d3e611f2-38e8-4627-be3f-540b4c64dcaf.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc="
+        }
+      ]
+    },
+    {
+      "Route": "images/d3e611f2-38e8-4627-be3f-540b4c64dcaf.png",
+      "AssetFile": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\d3e611f2-38e8-4627-be3f-540b4c64dcaf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 03:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpxADPq0KWh+GFbvdkdxQSPOadDIA3ZbRkOALxafUhc="
         }
       ]
     },

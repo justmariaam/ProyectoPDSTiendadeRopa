@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\images\\12aa520d-0ca4-4063-8354-43f6c0d5ec75.png"
     },
     {
+      "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\3bff2d2b-b59d-4535-97da-fb6a614397e8.png",
+      "PackagePath": "staticwebassets\\images\\3bff2d2b-b59d-4535-97da-fb6a614397e8.png"
+    },
+    {
+      "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\44433d90-351a-4c85-803c-22e105344556.png",
+      "PackagePath": "staticwebassets\\images\\44433d90-351a-4c85-803c-22e105344556.png"
+    },
+    {
       "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\4ef243eb-b31e-49c9-8d9a-acdb4d660417.png",
       "PackagePath": "staticwebassets\\images\\4ef243eb-b31e-49c9-8d9a-acdb4d660417.png"
     },
@@ -27,6 +35,14 @@
     {
       "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\7863f3e1-eeb1-48b0-8a8a-c97882f5077b.png",
       "PackagePath": "staticwebassets\\images\\7863f3e1-eeb1-48b0-8a8a-c97882f5077b.png"
+    },
+    {
+      "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\81939bd8-1fdf-47fc-b229-ee9e031244d0.png",
+      "PackagePath": "staticwebassets\\images\\81939bd8-1fdf-47fc-b229-ee9e031244d0.png"
+    },
+    {
+      "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\970accc8-6b43-416c-8ad7-fdd53e2af0dc.png",
+      "PackagePath": "staticwebassets\\images\\970accc8-6b43-416c-8ad7-fdd53e2af0dc.png"
     },
     {
       "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\Blusa2M.png",
@@ -183,6 +199,10 @@
     {
       "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\chanel.png",
       "PackagePath": "staticwebassets\\images\\chanel.png"
+    },
+    {
+      "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\d3e611f2-38e8-4627-be3f-540b4c64dcaf.png",
+      "PackagePath": "staticwebassets\\images\\d3e611f2-38e8-4627-be3f-540b4c64dcaf.png"
     },
     {
       "Id": "C:\\Users\\maria\\Desktop\\ProyectoTiendadeRopa\\wwwroot\\images\\d9b5f4b8-9ff5-4839-ad1f-d5674af4b382.png",

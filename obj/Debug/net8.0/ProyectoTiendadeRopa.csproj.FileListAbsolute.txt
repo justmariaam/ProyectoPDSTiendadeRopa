@@ -112,3 +112,4 @@ C:\Users\maria\Desktop\ProyectoTiendadeRopa\obj\Debug\net8.0\ProyectoTiendadeRop
 C:\Users\maria\Desktop\ProyectoTiendadeRopa\obj\Debug\net8.0\ProyectoTiendadeRopa.genruntimeconfig.cache
 C:\Users\maria\Desktop\ProyectoTiendadeRopa\obj\Debug\net8.0\ref\ProyectoTiendadeRopa.dll
 C:\Users\maria\Desktop\ProyectoTiendadeRopa\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\maria\Desktop\ProyectoTiendadeRopa\obj\Debug\net8.0\ProyectoTiendadeRopa.sourcelink.json

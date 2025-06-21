@@ -177,6 +177,13 @@
                     </div>
                 </div>
 
+                <div class="form-row">
+                    <label class="form-label">Domicilio</label>
+                    <input asp-for="Domicilio" class="form-control" placeholder="Calle 123" required />
+                </div>
+
+                
+            
                 <div class="checkbox-row">
                     <input type="checkbox" required />
                     <label>Acepto los <a href="#">Términos y condiciones</a></label>
@@ -185,6 +192,8 @@
                 <div class="links-row">
                     ¿Ya tienes cuenta? <a href="/Account/LoginCliente">Inicia sesión</a>
                 </div>
+
+                
 
                 <button type="submit" class="btn-orange mt-3">Crear cuenta</button>
             </form>

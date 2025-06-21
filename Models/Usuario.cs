@@ -15,5 +15,8 @@ namespace ProyectoTiendadeRopa.Models
 
         [Required]
         public string Contrasena { get; set; }
+
+        [Required]
+        public string Domicilio { get; set; }  // Campo nuevo
     }
 }

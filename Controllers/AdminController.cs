@@ -217,6 +217,20 @@ namespace ProyectoTiendadeRopa.Controllers
 
             return RedirectToAction("Productos", new { seccion = "eliminar" });
         }
+
+        [HttpPost]
+        public IActionResult AgregarCategoria(string Nombre)
+        {
+            if (!string.IsNullOrWhiteSpace(Nombre))
+            {
+                _context.Categorias.Add(new Categoria { Nombre = Nombre.Trim() });
+                _context.SaveChanges();
+                TempData["MensajeCategoria"] = "Categoría agregada exitosamente.";
+            }
+
+            return RedirectToAction("Productos", new { seccion = "categoria" });
+        }
+
         
 
         

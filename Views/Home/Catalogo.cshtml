@@ -7,6 +7,7 @@
     var usuarioId = HttpContextAccessor.HttpContext?.Session.GetInt32("UsuarioId");
     var nombreUsuario = HttpContextAccessor.HttpContext?.Session.GetString("UsuarioNombre");
     var categoriaActual = ViewBag.CategoriaActual as string;
+    var categorias = ViewBag.Categorias as List<string> ?? new List<string>();
 }
 <!DOCTYPE html>
 <html lang="es">
@@ -50,7 +51,6 @@
         .top-icons i {
             font-size: 1.7rem;
         }
-    
         .search-box {
             border-radius: 20px;
             padding: 5px 15px;
@@ -191,11 +191,23 @@
 <div class="text-center my-4 filtro-categorias">
     <strong>Filtrar por categoría:</strong>
     <a href="/Home/Catalogo" class="btn btn-sm btn-outline-dark mx-1 @(string.IsNullOrEmpty(categoriaActual) ? "active" : "")">Todas</a>
-    <a href="/Home/Catalogo?categoria=Niña" class="btn btn-sm btn-outline-dark mx-1 @(categoriaActual == "Niña" ? "active" : "")">Niñas</a>
+
+    <!-- Categorías fijas -->
+    <a href="/Home/Catalogo?categoria=Niña" class="btn btn-sm btn-outline-dark mx-1 @(categoriaActual == "Niña" ? "active" : "")">Niña</a>
     <a href="/Home/Catalogo?categoria=Bebés" class="btn btn-sm btn-outline-dark mx-1 @(categoriaActual == "Bebés" ? "active" : "")">Bebés</a>
     <a href="/Home/Catalogo?categoria=Mujer" class="btn btn-sm btn-outline-dark mx-1 @(categoriaActual == "Mujer" ? "active" : "")">Mujer</a>
     <a href="/Home/Catalogo?categoria=Hombre" class="btn btn-sm btn-outline-dark mx-1 @(categoriaActual == "Hombre" ? "active" : "")">Hombre</a>
+
+    <!-- Categorías nuevas desde BD (evitar repetir las anteriores) -->
+    @foreach (var cat in categorias)
+    {
+        if (cat != "Niña" && cat != "Bebés" && cat != "Mujer" && cat != "Hombre")
+        {
+            <a href="/Home/Catalogo?categoria=@cat" class="btn btn-sm btn-outline-dark mx-1 @(categoriaActual == cat ? "active" : "")">@cat</a>
+        }
+    }
 </div>
+
 
 <!-- BANNER CATEGORÍA -->
 @if (!string.IsNullOrEmpty(categoriaActual))
@@ -219,7 +231,7 @@
                         <i class="fa fa-star"></i><i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <p class="price">$@producto.Precio</p>
+                    <p class="price">$@producto.Precio.ToString("F2")</p>
                     <button class="btn-cart" onclick="agregarAlCarrito(@producto.Id)">
                         Añadir al carrito <i class="fa fa-cart-plus"></i>
                     </button>

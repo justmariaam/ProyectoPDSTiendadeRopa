@@ -32,8 +32,11 @@ namespace ProyectoTiendadeRopa.Controllers
                 : _context.Productos.Where(p => p.Categoria == categoria).ToList();
 
             ViewBag.CategoriaActual = categoria;
+            ViewBag.Categorias = _context.Categorias.Select(c => c.Nombre).ToList();
             return View(productos);
         }
+
+
 
         public IActionResult Pedido()
         {
@@ -92,9 +95,15 @@ namespace ProyectoTiendadeRopa.Controllers
             if (HttpContext.Session.GetInt32("UsuarioId") == null)
                 return RedirectToAction("LoginCliente", "Account");
 
+                var usuarioId = HttpContext.Session.GetInt32("UsuarioId").Value;
+                var usuario = _context.Usuarios.FirstOrDefault(u => u.Id == usuarioId);
+
+
             ViewBag.PedidoExitoso = true;
+            ViewBag.Domicilio = usuario?.Domicilio ?? "No registrado";
             return View();
         }
+
 
         public IActionResult Privacy()
         {
@@ -106,5 +115,7 @@ namespace ProyectoTiendadeRopa.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        
     }
 }

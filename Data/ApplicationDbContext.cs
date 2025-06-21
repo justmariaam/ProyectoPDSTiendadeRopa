@@ -23,6 +23,9 @@ namespace ProyectoTiendadeRopa.Data
 
         public DbSet<Administrador> Administradores { get; set; }
 
+        public DbSet<Categoria> Categorias { get; set; }
+
+
 
 
 
